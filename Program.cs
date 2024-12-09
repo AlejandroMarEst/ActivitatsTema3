@@ -6,10 +6,10 @@ namespace ActivitatsTema3
     {
         public static void Main()
         {
-            Llibre Fnaf = new Llibre("Fnaf", "Scott Cawthorn");
-            Biblio Librarby = new Biblio("Librarby","Meridiana");
-            Console.WriteLine(Fnaf.Titol);
-            Console.WriteLine(Librarby.Name);
+            Edifici Hotel = new Edifici("Fnaf", 17);
+            Habitacio Room = new Habitacio(207,"Meridiana");
+            Console.WriteLine(Hotel.Nom);
+            Console.WriteLine(Room.Superficie);
         }
     }
 }
