@@ -6,10 +6,10 @@ namespace ActivitatsTema3
     {
         public static void Main()
         {
-            Player Messi = new Player("Messi", 50);
-            Team Barca = new Team("Barca");
-            Console.WriteLine(Messi.Name);
-            Console.WriteLine(Barca.TeamName);
+            Edifici Hotel = new Edifici("Fnaf", 17);
+            Habitacio Room = new Habitacio(207,"Meridiana");
+            Console.WriteLine(Hotel.Nom);
+            Console.WriteLine(Room.Superficie);
         }
     }
 }
