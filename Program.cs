@@ -6,10 +6,8 @@ namespace ActivitatsTema3
     {
         public static void Main()
         {
-            Edifici Hotel = new Edifici("Fnaf", 17);
-            Habitacio Room = new Habitacio(207,"Meridiana");
-            Console.WriteLine(Hotel.Nom);
-            Console.WriteLine(Room.Superficie);
+            Bike bike1 = new Bike(80,"Torrente","Red",8);
+            Console.WriteLine("{0}, {1}, {2}, {3}", bike1.Speed,bike1.Gears,bike1.Color,bike1.Brand);
         }
     }
 }

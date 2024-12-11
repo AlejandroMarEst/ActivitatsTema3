@@ -1,24 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ActivitatsTema3.Card">
-    <Position X="7" Y="1.75" Width="1.5" />
+  <Class Name="ActivitatsTema3.Bike">
+    <Position X="8" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAgAAAAAAAAAAAAAAAAEQAQAgAAAAAAA=</HashCode>
-      <FileName>Card.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ActivitatsTema3.Lamp">
-    <Position X="5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAQCBAAgAgAAAAAA=</HashCode>
-      <FileName>Lamp.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ActivitatsTema3.Flight">
-    <Position X="8.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>ARAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABARAAQA=</HashCode>
-      <FileName>Flight.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAgACBAAA=</HashCode>
+      <FileName>Bike.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
