@@ -5,19 +5,17 @@ using System.Text;
 
 namespace ActivitatsTema3
 {
-    public class Flight
+    public class Flight : Travel
     {
         public string Company { get; set; }
-        
-        public int Time { get; set; }
 
-        public int Passangers { get; set; }
-
-        public Flight(string company, int time, int passangers)
+        public Flight(string company, string origin, string destination, int duration, int passangers) :base(origin,destination,duration,passangers)
         {
-            this.Company = company;
-            this.Time = time;
-            this.Passangers = passangers;
+            Company = company;
+            Origin = origin;
+            Destination = destination; 
+            Duration = duration;
+            Passangers = passangers;
         }
     }
 }

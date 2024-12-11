@@ -5,16 +5,16 @@ using System.Text;
 
 namespace ActivitatsTema3
 {
-    public class Lamp
+    public class Lamp : Furniture
     {
-        public string Color { get; set; }
-
         public int Power { get; set; }
 
-        public Lamp(string color, int power)
+        public Lamp(string color, int power, int height, int width) : base(color, height, width)
         {
-            this.Color = color;
-            this.Power = power;
+            Color = color;
+            Power = power;
+            Height = height;
+            Width = width;
         }
     }
 }
