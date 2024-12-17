@@ -18,6 +18,15 @@ namespace ActivitatsTema3
             Author = author;
             Category = category;
         }
+
+        public Library Library
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void ReadCover(Literatura bookName)
         {
             string bookTitle = bookName.Name;

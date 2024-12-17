@@ -2,18 +2,53 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ActivitatsTema3.Newspaper">
     <Position X="7.75" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Library" Type="ActivitatsTema3.Library" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="5.188" />
+        <Point X="7.583" Y="5.187" Type="JumpStart" />
+        <Point X="7.417" Y="5.188" Type="JumpEnd" />
+        <Point X="6.573" Y="5.188" />
+        <Point X="6.573" Y="3.204" />
+        <Point X="8.062" Y="3.204" />
+        <Point X="8.062" Y="2.747" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.943" Y="0.456" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Newspaper.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Library" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsTema3.Magazine">
     <Position X="9.25" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Library" Type="ActivitatsTema3.Library" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="5.367" />
+        <Point X="10" Y="5.524" />
+        <Point X="7.583" Y="5.524" Type="JumpStart" />
+        <Point X="7.417" Y="5.524" Type="JumpEnd" />
+        <Point X="6.385" Y="5.524" />
+        <Point X="6.385" Y="2.996" />
+        <Point X="8.062" Y="2.996" />
+        <Point X="8.062" Y="2.747" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.039" Y="0.245" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Magazine.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Library" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ActivitatsTema3.Literatura">
@@ -25,16 +60,47 @@
   </Class>
   <Class Name="ActivitatsTema3.Book">
     <Position X="10.75" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Library" Type="ActivitatsTema3.Library" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.312" Y="5.56" />
+        <Point X="11.312" Y="5.935" />
+        <Point X="7.5" Y="5.935" />
+        <Point X="7.5" Y="3.32" />
+        <Point X="8.062" Y="3.32" />
+        <Point X="8.062" Y="2.747" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="0.643" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAgAAAAAAgAAAAAAAAAgA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Library" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="ActivitatsTema3.IText">
-    <Position X="9.25" Y="5.75" Width="1.5" />
+  <Class Name="ActivitatsTema3.Library">
+    <Position X="7.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Library.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ActivitatsTema3.ILibrary">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ILibrary.cs</FileName>
+      <NewMemberFileName>IText.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ActivitatsTema3.IText">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>IText.cs</FileName>
     </TypeIdentifier>
   </Interface>
