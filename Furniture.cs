@@ -28,10 +28,10 @@ namespace ActivitatsTema3
         }
         public Furniture(double price, string name, string colour) : this(null, price, null, name, null, colour, null) { }
         public Furniture() : this(null, 20.00, null, "Shnicer Table", null, "Red", null) { }
-        public string GetInfo()
+        public override string GetInfo()
         {
-            string Info = $"Name: {Name}, Colour: {Colour}, Material: {Material}, Price: {Price}, Weight: {Weight}, Set: {Set}";
-            return Info;
+            string info = $"Name: {Name}, Colour: {Colour}, Material: {Material}, Price: {Price}, Weight: {Weight}, Set: {Set}";
+            return info;
         }
     }
 }

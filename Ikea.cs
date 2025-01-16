@@ -17,5 +17,10 @@ namespace ActivitatsTema3
             Price = price;
             Description = description;
         }
+        public virtual string GetInfo()
+        {
+            string info = $"Name: {Name}, Price: {Price}, Description: {Description}";
+            return info;
+        }
     }
 }

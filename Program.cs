@@ -6,7 +6,7 @@ namespace ActivitatsTema3
         public static void Main()
         {
             const string Obj = "{0}, {1}, {2}, {3}, {4}, {5}";
-            Furniture Table = new Furniture(80f,30.99,true,"Table schneider","Wood","Yellow");
+            Furniture Table = new Furniture(80f,30.99,true,"Table schneider","Wood","Yellow",null);
             string info = Table.GetInfo();
             Console.WriteLine(info);
         }
